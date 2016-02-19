@@ -1,0 +1,32 @@
+{
+    "name": "jirro/jirro-boilerplate",
+    "description": "A group of (minimum of) 3 stars packages for a quick framework-like application boilerplate",
+    "type": "project",
+    "homepage": "http://github.com/jirro",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rendy Eko Prastiyo",
+            "email": "rendyekoprastiyo@gmail.com",
+            "homepage": "http://github.com/rendyep",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "rendyekoprastiyo@gmail.com"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "jirro/jirro": "~1.0@dev",
+        "stack/session": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+        ]
+    }
+}

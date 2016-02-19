@@ -1,0 +1,7 @@
+.pagination {
+    margin-top: 0;
+}
+
+.panel .form-group:last-child {
+    margin-bottom: 0;
+}
